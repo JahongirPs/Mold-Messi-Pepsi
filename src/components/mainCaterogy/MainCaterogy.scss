@@ -1,0 +1,22 @@
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.category__wrapper {
+  padding: 40px 0;
+  width: 90%;
+  align-items: center;
+  margin: 10px auto;
+
+}
+.category__box {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  display: grid;
+  grid-template-columns: (4, 1fr);
+  width: 1200px;
+}

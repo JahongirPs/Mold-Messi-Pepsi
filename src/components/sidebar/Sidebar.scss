@@ -1,0 +1,74 @@
+.block {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.aside__logo {
+  width: 35px;
+  height: 35px;
+  color: #4361ee;
+}
+.aside__header {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  display: flex;
+  font-size: 20px;
+  height: 50px;
+  padding-left: 20px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  border: none;
+  width: 100%;
+}
+.aside__header p {
+  color: #4361ee;
+}
+.aside {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.25);
+  height: 560px;
+  width: 380px;
+  padding: 10px;
+  z-index: 10;
+  position: absolute;
+  cursor: pointer;
+  top: -95px;
+  left: 90px;
+}
+.aside__menu li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  margin-top: 10px;
+  border-bottom: 1px solid black;
+}
+.aside__menu a {
+  font-size: 20px;
+  color: black;
+}
+.aside__menu li:hover .sub__category-item {
+  display: block;
+}
+.sub__category-item a {
+  padding: 10px 5px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.sub__category-item a:hover {
+  background-color: rgba(128, 128, 128, 0.249);
+}
+.sub__category-item {
+  display: none;
+  position: absolute;
+  left: 370px;
+  margin: 0;
+  width: 580px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.25);
+}

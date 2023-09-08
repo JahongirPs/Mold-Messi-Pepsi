@@ -1,0 +1,26 @@
+.hamkor__block {
+  padding: 100px 0;
+  .hamkor__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 100%;
+    img {
+      margin-top: 100px;
+      width: 300px;
+      height: 300px;
+    }
+    h2 {
+      font-size: 25px;
+    }
+    a {
+      color: #1e90ff;
+    }
+  }
+}
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}

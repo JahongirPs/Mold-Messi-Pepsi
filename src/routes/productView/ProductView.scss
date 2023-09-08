@@ -1,0 +1,188 @@
+.product__block {
+  display: flex;
+  align-items: stretch;
+  gap: 30px;
+  margin-top: 10px;
+}
+.productView__img {
+  border-radius: 15px;
+  width: 680px;
+  height: 700px;
+  background-color: white;
+  box-shadow: 1px 1px 10px 1px rgb(225, 224, 224);
+  object-fit: contain;
+}
+.productView__images {
+  width: 150px;
+  height: 150px;
+  object-fit: fill;
+  border: none;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+.product__wrapper{
+  height: 100%;
+}
+.productView__img img {
+  width: 100%;
+  box-sizing: border-box;
+  height: 700px;
+  border-radius: 15px;
+}
+.product__wrapper h1 {
+  font-size: 35px;
+  width: 100%;
+  box-sizing: border-box;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.productView__box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 60px;
+  margin-top: 10px;
+  button {
+    background-color: #4361ee;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 40px;
+    cursor: text;
+  }
+}
+.productView__wrap {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  p {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  span {
+    color: #0ab64f;
+    font-size: 25px;
+    font-weight: 500;
+    flex: 1;
+  }
+  select {
+    background-color: #4361ee;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 250px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+}
+h5 {
+  color: #4361ee;
+  margin: 20px 0 50px 0;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 50px !important;
+}
+.productView__counter {
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 30px;
+  width: 772px;
+}
+.productView__count h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.productView__count div {
+  align-items: center;
+  background-color: #4361ee;
+  border-radius: 5px;
+  display: flex;
+  height: 65px;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 10px;
+  width: 235px;
+  color: #fff;
+  cursor: text;
+  font-size: 20px;
+  font-weight: bold;
+}
+.productView__count div button {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  color: #4361ee;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid transparent;
+  height: 40px;
+  transition: 0.2s;
+  width: 50px;
+  &:hover {
+    background-color: blue;
+    color: white;
+  }
+  &:active {
+    background-color: white;
+    border: 2px solid rgba(0, 0, 255, 0.009);
+    color: blue;
+  }
+}
+.productView__btn {
+  align-items: center;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  height: 65px;
+  justify-content: center;
+  width: 100%;
+  font-size: 20px;
+  background-color: #4361ee;
+  border: none;
+  margin-top: 20px;
+}
+.product__shop {
+  width: 30px;
+  height: 25px;
+}
+.productView__images {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+.productView__shop {
+  background-color: #0ab64f;
+  border: none;
+  font-size: 20px;
+  width: 215px;
+  padding: 10px 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  height: 65px;
+  border-radius: 5px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.borderBlock {
+  border: 3px solid #4361ee;
+  border-radius: 5px;
+}
+.borderNone {
+  border-radius: 5px;
+  border: 3px solid transparent;
+}

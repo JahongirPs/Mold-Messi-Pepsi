@@ -1,0 +1,130 @@
+nav {
+  background-color: #fff;
+  box-shadow: 0 8px 11px -7px rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
+.nav__block {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 10px;
+  width: 74%;
+  margin: 0 auto;
+}
+.nav__wrap {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+}
+form {
+  width: 100%;
+}
+.nav__input {
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid #0a75df;
+  padding: 20px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  flex: 1;
+}
+.nav__btn {
+  padding: 12px 30px;
+  position: absolute;
+  right: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #0a75df;
+  border: none;
+  border: 2px solid #0a75df;
+}
+.search {
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+.nav__pages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 0 auto;
+  padding-left: 40px;
+  width: 64%;
+}
+.nav__pages button {
+  cursor: pointer;
+  color: var(--main-background-color);
+  display: flex;
+  font-size: 20px;
+  padding: 10px 30px;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 30px;
+  border: none;
+  background-color: transparent;
+  border: 1px solid #0a75df;
+  &:hover {
+    background-color: #0a75df1e;
+  }
+}
+.search__results {
+  width: 83%;
+  max-height: 300px;
+  background-color: #fff;
+  position: absolute;
+  top: calc(100% + 30px);
+  z-index: 9999;
+  right: 0;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.25);
+  overflow-y: auto;
+  &:has(.nosearch-result-img) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.search__results-item {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.2);
+  display: flex;
+  margin: 5px 0;
+  min-height: 80px;
+  padding: 0 20px;
+  width: 100%;
+  img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.431);
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+  h4 {
+    color: #000;
+    flex: 1;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  strong {
+    color: #0ab64f;
+  }
+}
+.search__box {
+  align-items: center;
+  display: flex;
+  p {
+    flex: 1;
+  }
+}

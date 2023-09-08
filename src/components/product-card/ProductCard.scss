@@ -1,0 +1,46 @@
+.product-card {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  width: 315px;
+  box-shadow: 0 0 13px -1px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  h3 {
+    text-align: left;
+    color: dodgerblue;
+    font-size: 500;
+    font-size: 20px;
+    margin-top: 10px;
+    min-height: 30px;
+  }
+}
+.product__list {
+  display: flex;
+  align-items: center;
+  p {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    color: #726f6f;
+    font-size: 12px;
+    margin: 3px 0;
+    padding: 2px 3px;
+    white-space: nowrap;
+    margin: 20px 0;
+  }
+}
+.product__img {
+  width: 275px;
+  height: 230px;
+}
+.product__price {
+  color: #00ff22;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 100%;
+  text-align: left;
+  p {
+    height: 30px;
+  }
+}
